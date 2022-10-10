@@ -4,12 +4,12 @@ import higherLowerArt
 from higherLowerGameData import data
 
 def random_account():
-    """Selects a random account from data"""
+    """Returns a random account from data"""
     return random.choice(data)
 
 
 def print_data_info(account):
-    """Returns data info in a concise sentence"""
+    """Takes data info and returns info in a concise sentence"""
     name = account['name']
     description = account['description']
     country = account['country']
