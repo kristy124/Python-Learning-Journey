@@ -20,7 +20,7 @@ def play():
     """Starts the game of higher lower"""
     account_a = random_account()
     account_b = random_account()
-    if account_a == account_b:
+    while account_a == account_b:
         account_b = random_account()
     current_score = 0
     playing_game = True
